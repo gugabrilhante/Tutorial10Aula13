@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="50sp"
+    android:paddingRight="50sp"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:context="gustavo.brilhante.tutorial10aula13.MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="URL here"
+        android:layout_marginBottom="10sp"
+        android:textSize="16sp"
+        android:layout_marginTop="10sp"/>
+
+    <EditText
+        android:id="@+id/url_edittext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10sp" />
+
+    <Button
+        android:id="@+id/download_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOAD WEBPAGE"
+        android:layout_marginBottom="10sp"/>
+
+    <TextView
+        android:id="@+id/webpage_textview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:textSize="16sp" />
+</LinearLayout>
